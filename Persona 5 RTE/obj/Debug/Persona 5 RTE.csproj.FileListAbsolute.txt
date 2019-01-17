@@ -1,0 +1,13 @@
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\bin\Debug\Persona 5 RTE.exe.config
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\bin\Debug\Persona 5 RTE.exe
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\bin\Debug\Persona 5 RTE.pdb
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona 5 RTE.csprojAssemblyReference.cache
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona_5_RTE.Form1.resources
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona_5_RTE.Properties.Resources.resources
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona 5 RTE.csproj.GenerateResource.cache
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona 5 RTE.csproj.CoreCompileInputs.cache
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona 5 RTE.exe
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona 5 RTE.pdb
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\bin\Debug\PS3Lib.dll
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\bin\Debug\ps3tmapi_net.dll
+C:\Users\Duke\source\repos\Persona 5 RTE\Persona 5 RTE\obj\Debug\Persona 5 RTE.csproj.CopyComplete
