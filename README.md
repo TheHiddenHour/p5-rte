@@ -27,3 +27,8 @@ byte GetLevel(int slot) - Returns persona's level at the designated slot
 void SetStat(int slot, Stat stat, byte value) - Set's the persona's stat at the designated slot
 byte GetStat(int slot, Stat stat) - Returns the persona's stat at the designated slot
 ```
+
+### Credits
+zarroboogs
+TGE
+ShrineFox
