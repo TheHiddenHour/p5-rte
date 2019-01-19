@@ -30,5 +30,7 @@ byte GetStat(int slot, Stat stat) - Returns the persona's stat at the designated
 
 ### Credits
 zarroboogs
+
 TGE
+
 ShrineFox
