@@ -3,6 +3,8 @@ A tool made using PS3Lib that allows for the real time editing of Persona 5 for 
 ## Protagonist Editor
 This tool allows for the editing of the protagonist's social stats, money, and level. All attributes listed can be found in *Protagonist.cs*.
 
+![Protagonist tab](/protagonist.PNG)
+
 ```
 void SetStat(Stat stat, short value) - Sets the protagonist's stat
 short GetStat(Stat stat) - Returns the protagonist's stat
@@ -14,6 +16,8 @@ The protagonist's level can be get/set through the byte `Level`.
 
 ## Persona Editor
 This tool also has options for persona editing for every possible slot between 1 and 12. These edits include persona, skills, level, and stats. All attributes listed can be found in *Persona.cs*.
+
+![Persona tab](/persona.PNG)
 
 ```
 void SetPersona(int slot, short value) - Sets the persona in the designated slot
