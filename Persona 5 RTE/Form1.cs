@@ -7,9 +7,16 @@ namespace Persona_5_RTE
 {
     public partial class Form1 : Form
     {
+        private static readonly short[] knowledgeValues = new short[] { 33, 81, 125, 191, 192 };
+        private static readonly short[] charmValues = new short[] { 5, 51, 91, 131, 132 };
+        private static readonly short[] proficiencyValues = new short[] { 11, 33, 59, 86, 87 };
+        private static readonly short[] gutsValues = new short[] { 10, 28, 56, 112, 113 };
+        private static readonly short[] kindnessValues = new short[] { 13, 43, 90, 135, 136 };
+
+        private static int personaSlot = 0;
+        private static int skillSlot = 0;
+
         public static PS3API PS3 = new PS3API(SelectAPI.TargetManager);
-        public static int personaSlot = 0;
-        public static int skillSlot = 0;
 
         public Form1()
         {
@@ -135,62 +142,52 @@ namespace Persona_5_RTE
 
         private void knowledgeSet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 33, 81, 125, 191, 192 }; // Values of each level in order
-            Protagonist.SetStat(Protagonist.Stat.Knowledge, values[knowledgeInput.SelectedIndex]);
+            Protagonist.SetStat(Protagonist.Stat.Knowledge, knowledgeValues[knowledgeInput.SelectedIndex]);
         }
 
         private void knowledgeGet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 33, 81, 125, 191, 192 }; // Values of each level in order
-            RetrieveSocialStat(Protagonist.Stat.Knowledge, values, knowledgeInput);
+            RetrieveSocialStat(Protagonist.Stat.Knowledge, knowledgeValues, knowledgeInput);
         }
 
         private void charmSet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 5, 51, 91, 131, 132 }; // Values of each level in order
-            Protagonist.SetStat(Protagonist.Stat.Charm, values[charmInput.SelectedIndex]);
+            Protagonist.SetStat(Protagonist.Stat.Charm, charmValues[charmInput.SelectedIndex]);
         }
 
         private void charmGet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 5, 51, 91, 131, 132 }; // Values of each level in order
-            RetrieveSocialStat(Protagonist.Stat.Charm, values, charmInput);
+            RetrieveSocialStat(Protagonist.Stat.Charm, charmValues, charmInput);
         }
 
         private void proficiencySet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 11, 33, 59, 86, 87 }; // Values of each level in order
-            Protagonist.SetStat(Protagonist.Stat.Proficiency, values[proficiencyInput.SelectedIndex]);
+            Protagonist.SetStat(Protagonist.Stat.Proficiency, proficiencyValues[proficiencyInput.SelectedIndex]);
         }
 
         private void proficiencyGet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 11, 33, 59, 86, 87 }; // Values of each level in order
-            RetrieveSocialStat(Protagonist.Stat.Proficiency, values, proficiencyInput);
+            RetrieveSocialStat(Protagonist.Stat.Proficiency, proficiencyValues, proficiencyInput);
         }
 
         private void gutsSet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 10, 28, 56, 112, 113 }; // Values of each level in order
-            Protagonist.SetStat(Protagonist.Stat.Guts, values[gutsInput.SelectedIndex]);
+            Protagonist.SetStat(Protagonist.Stat.Guts, gutsValues[gutsInput.SelectedIndex]);
         }
 
         private void gutsGet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 10, 28, 56, 112, 113 }; // Values of each level in order
-            RetrieveSocialStat(Protagonist.Stat.Guts, values, gutsInput);
+            RetrieveSocialStat(Protagonist.Stat.Guts, gutsValues, gutsInput);
         }
 
         private void kindnessSet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 13, 43, 90, 135, 136 }; // Values of each level in order
-            Protagonist.SetStat(Protagonist.Stat.Kindness, values[kindnessInput.SelectedIndex]);
+            Protagonist.SetStat(Protagonist.Stat.Kindness, kindnessValues[kindnessInput.SelectedIndex]);
         }
 
         private void kindnessGet_Click(object sender, EventArgs e)
         {
-            short[] values = new short[] { 13, 43, 90, 135, 136 }; // Values of each level in order
-            RetrieveSocialStat(Protagonist.Stat.Kindness, values, kindnessInput);
+            RetrieveSocialStat(Protagonist.Stat.Kindness, kindnessValues, kindnessInput);
         }
 
         private void personaSlotInput_Leave(object sender, EventArgs e)
